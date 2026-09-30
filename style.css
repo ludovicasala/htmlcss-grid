@@ -106,7 +106,12 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 12px;
+}
+
+/* Contenitore bio */
+
+.bio {
+    margin: 40px 0 70px 0;
 }
 
 .p-bio {
@@ -122,3 +127,17 @@ h2 {
 }
 
 /* Contenitore grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    height: 800px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
