@@ -4,3 +4,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+}
+
+/* Diamo alle icone una dimensione minima/larghezza fissa e allineiamo il testo */
+header .header i {
+    font-size: 20px;
+    width: 32px;
+    /* Stessa larghezza per sinistra e destra */
+    display: flex;
+    align-items: center;
+}
+
+header .header i.bi-three-dots {
+    justify-content: flex-end;
+    /* Spinge i tre punti a destra */
+}
+
+header .header h1 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    flex: 1;
+    /* Occupa lo spazio centrale */
+}
