@@ -45,9 +45,16 @@ h2 {
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    object-fit: cover;
+    background-position: center;
     overflow: hidden;
     margin: auto;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Contenitore per sezioni follow */
